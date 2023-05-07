@@ -50,13 +50,12 @@ img{
     background-image: url(./img/bg4.jpg);
 }
 .div11{
-    border-color: blueviolet;
-    border-style: solid;
-    border-width: 5px;
+   
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 250px;
-    height:100px
+    height:100px;
+    outline: inset 0.5rem purple;
 }
 .h12, .h16{
     background-color: white;
@@ -65,31 +64,30 @@ img{
 .div4, .div8{
     background-color: black;
 }
-.div15{border-color: blueviolet;
-    border-style: solid;
-    border-width: 5px;
+.div15{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 300px;
-    height:150px
+    width: 400px;
+    height: 100px;
+    outline: inset 0.5rem purple;
+    outline-offset: 0.4rem;
 }
-.div17{border-color: blueviolet;
-    border-style: solid;
-    border-width: 5px;
+.div17{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 300px;
-    height:120px
+    height:100px;
+    outline: inset 0.5rem purple;
+}
 
-}
-.div19{border-color: blueviolet;
-    border-style: solid;
-    border-width: 5px;
+.div19{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width:450px;
-    height:120px
+    height:120px;
+    outline: inset 0.5rem purple;
 }
+
 h1{
     font-size: 32px;
 }
